@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: db
--- Tiempo de generación: 13-11-2026 a las 05:47:25
+-- Tiempo de generación: 20-11-2026 a las 02:44:06
 -- Versión del servidor: 8.1.0
 -- Versión de PHP: 8.3.26
 
@@ -50,7 +50,8 @@ CREATE TABLE `discos` (
   `artista` varchar(100) NOT NULL,
   `disquera` varchar(100) NOT NULL,
   `anio` year NOT NULL,
-  `color` varchar(7) NOT NULL
+  `color` varchar(7) NOT NULL,
+  `spotify` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------

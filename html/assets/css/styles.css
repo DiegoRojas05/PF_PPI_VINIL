@@ -1,0 +1,78 @@
+:root {
+    --vinil-primary: #e67e22;
+    --vinil-primary-hover: #d35400;
+    --vinil-dark: #0b0b0b;
+    --vinil-card: #161616;
+    --primary: #e67e22;
+}
+
+body {
+    background-color: var(--vinil-dark);
+    color: #f5f5f5;
+}
+
+/* Identidad Zogovinl sobre clases de Poseify */
+.text-primary {
+    color: var(--vinil-primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--vinil-primary) !important;
+}
+
+.btn-primary,
+.btn-vinil {
+    background-color: var(--vinil-primary);
+    border-color: var(--vinil-primary);
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-vinil:hover {
+    background-color: var(--vinil-primary-hover);
+    border-color: var(--vinil-primary-hover);
+    color: #ffffff;
+}
+
+.btn-outline-primary {
+    color: var(--vinil-primary);
+    border-color: var(--vinil-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--vinil-primary);
+    border-color: var(--vinil-primary);
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar.bg-dark {
+    background-color: #080808 !important;
+    border-bottom: 1px solid #222222;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--vinil-primary);
+}
+
+.card-disco {
+    background-color: var(--vinil-card);
+    border: 1px solid #262626;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card-disco:hover {
+    transform: translateY(-6px);
+    border-color: var(--vinil-primary);
+}
+
+/* Footer con textura del template */
+.footer-vinil {
+    background: linear-gradient(rgba(8, 8, 8, 0.92), rgba(8, 8, 8, 0.96)), url('../../img/footer-bg.png') center center no-repeat;
+    background-size: cover;
+    border-top: 1px solid #222222;
+}
